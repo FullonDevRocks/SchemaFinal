@@ -1,0 +1,133 @@
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: rgb(64, 64, 64); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  font-family: Futura;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: whitesmoke;
+  display: block;
+  transition: 0.3s;
+  margin-left: 85px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: dodgerblue;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-family: Futura;
+  position: absolute;
+  text-align: right;
+  font-size: 150px;
+  cursor: pointer;
+  /* background-color: #111; */
+  color: white;
+  border: none;
+  margin-left: 350px;
+  top: 0%;
+  margin-top: -95px;
+}
+
+/* .openbtn:hover {
+  font-size: 70px;
+} */
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main2 {
+  align-items: flex-end;
+  /* transition: margin-right .5s; If you want a transition effect */
+  padding: 10px;
+  text-align: right;
+  top: 0%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.BrandLogo{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+}
+.sorao{
+  text-align: right;
+}
+.menuiconis{
+  margin-left: 200px;
+  padding-left: 200px;
+}
+.span{
+  margin-top: 100px;
+}
+.add{
+  font-family: Futura;
+  font-size: 10px;
+  font-size: 15px;
+  position: absolute;
+  top: 470px;
+  left: 35px;
+  right: 25px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+.add2{
+  font-family: Futura;
+  font-size: 10px;
+  font-size: 15px;
+  position: absolute;
+  top: 520px;
+  left: 35px;
+  right: 25px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+.add3{
+  font-family: Futura;
+  font-size: 10px;
+  font-size: 15px;
+  position: absolute;
+  top: 550px;
+  left: 35px;
+  right: 25px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.sidebar .add:hover {
+  color: dodgerblue;
+}
+
+.sidebar .add2:hover {
+  color: dodgerblue;
+}
+
+.sidebar .add3:hover {
+  color: dodgerblue;
+}
