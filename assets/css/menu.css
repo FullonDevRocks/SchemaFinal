@@ -23,12 +23,12 @@
   color: whitesmoke;
   display: block;
   transition: 0.3s;
-  margin-left: 85px;
+  margin-left: 10px;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: dodgerblue;
+  color: #99ccff;
 }
 
 /* Position and style the close button (top right corner) */
@@ -42,7 +42,7 @@
 
 /* The button used to open the sidebar */
 .openbtn {
-  font-family: Futura;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: absolute;
   text-align: right;
   font-size: 150px;
@@ -53,6 +53,7 @@
   margin-left: 350px;
   top: 0%;
   margin-top: -95px;
+  font-weight: lighter;
 }
 
 /* .openbtn:hover {
@@ -124,17 +125,28 @@
 }
 
 .sidebar .add:hover {
-  color: dodgerblue;
+  color: #99ccff;
 }
 
 .sidebar .add2:hover {
-  color: dodgerblue;
+  color: #99ccff;
 }
 
 .sidebar .add3:hover {
-  color: dodgerblue;
+  color: #99ccff;
 }
-
+#prev {
+  color: black;
+}
+#next {
+  color: black;
+}
+#prev:hover {
+  color: #99ccff;
+}
+#next:hover {
+  color: #99ccff;
+}
 @media (max-width:500px) {
   .hero .container {
     position: fixed;
@@ -154,7 +166,12 @@
     width: 60%;
     font-size: 75px;
     margin-top: -48px;
-    margin-left: 100px;
+    margin-left: 120px;
+    font-family: Futura;
+    font-weight: lighter;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: lighter;
   }
   .sow {
     margin-left: 0;
@@ -168,6 +185,9 @@
     backface-visibility: visible;
     background-color: black;
     background: rgba(0, 0, 0, 0.6);
+  }
+  .add{
+    margin-bottom: 10px;
   }
 }
 
