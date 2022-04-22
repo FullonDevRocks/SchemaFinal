@@ -63,18 +63,23 @@
     .work_block{
       margin-bottom: 20px;
     }
-    .work_block:hover {
+    /* .work_block:hover {
         opacity: 0.3;
+        
+    } */
+    .workimg:hover {
+        background: rgba(0, 0, 0, 0.6);
     }
     .middle {
         transition: .5s ease;
         opacity: 0;
         position: relative;
-        top: 50%;
+        top: 95%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
+        background: rgba(0, 0, 0, 0.6);
     }
     .work_block:hover .middle {
         opacity: 1;
@@ -88,11 +93,14 @@
         transition: .5s ease;
         backface-visibility: visible;
         background-color: black;
+        background: rgba(0, 0, 0, 0.6);
     }
     .hideText {
         color: whitesmoke;
         font-size: 24px;
         font-weight: bold;
+        height: 100%;
+
     }
     .sow {
         margin-left: 100px;
