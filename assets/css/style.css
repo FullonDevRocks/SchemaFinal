@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 50px;
 }
 
 h4 {
@@ -385,7 +385,8 @@ a:hover {
   display: table-cell;
   vertical-align: top;
   width: 100%;
-  padding-left: 100px;
+  padding-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .hero-brand {
