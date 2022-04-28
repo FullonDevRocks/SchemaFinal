@@ -167,7 +167,7 @@
 #next:hover {
   color: #99ccff;
 }
-@media (max-width:500px) {
+/* @media (max-width:500px) {
   .hero .container {
     position: fixed;
     z-index: 1;
@@ -209,7 +209,7 @@
   .add{
     margin-bottom: 10px;
   }
-}
+} */
 
 /* @media (max-width: 400px) {
 
